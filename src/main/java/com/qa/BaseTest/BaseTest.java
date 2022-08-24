@@ -24,7 +24,7 @@ public class BaseTest {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		prop po=new prop();
-		po.fetchurl("url1");
+		po.fetchurl("url");
 		//driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
