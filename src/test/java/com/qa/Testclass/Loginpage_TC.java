@@ -21,6 +21,7 @@ public class Loginpage_TC extends BaseTest {
 	@Test(priority = 1)
 	public void verifyurl() {
 		lp.verifyurl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", driver);
+		System.out.println("url verified Successfully");
 
 	}
 
@@ -28,7 +29,7 @@ public class Loginpage_TC extends BaseTest {
 	public void logindetail(String email, String pass) {
 		
 			lp.logincredi(driver,email, pass);
-		System.out.println("done");
+		System.out.println("Login Successfull");
 		
 	}
 }

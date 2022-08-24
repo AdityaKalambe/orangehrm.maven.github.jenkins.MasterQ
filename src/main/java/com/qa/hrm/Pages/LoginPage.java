@@ -29,7 +29,7 @@ public class LoginPage {
 		username.sendKeys(email);
 		password.sendKeys(pass);
 		loginButton.click();
-		driver.navigate().back();
 		
 	}
+	
 }

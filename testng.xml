@@ -8,6 +8,7 @@
     <classes>
       <class name="com.qa.BaseTest.BaseTest"/>
       <class name="com.qa.Testclass.Loginpage_TC"/>
+      <class name="com.qa.Testclass.HomePage_TC"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
